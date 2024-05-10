@@ -1,0 +1,118 @@
+body{
+    background-color: rgba(7, 6, 7, 0.704);
+    background-image: url("bgi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-clip:border-box;
+}
+nav{
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #0a0a0a;
+    }
+    
+    li a {
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(242, 249, 240);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: "Ubuntu",sans-serif;
+      font-size: large;
+    }
+    
+    
+    li a:hover {
+      background-color: #b55192;
+    }
+}
+div.a{
+    height: 450px;
+    width: 300%;
+}
+p.b{
+    font-family: "Montserrat",sans-serif ;
+    font-style: normal;
+    font-size: 180px;
+    text-align: justify;
+    color: aliceblue;
+    padding-left: 8%;
+}
+@keyframes example {
+  0%   {background-color: rgb(230, 137, 235);}
+  25%  {background-color: rgb(143, 166, 223);}
+  50%  {background-color: rgb(158, 227, 166);}
+  100% {background-color: rgb(212, 215, 137);}
+}
+
+
+div.A{
+  width: 500px;
+  height: 500px;
+  float:left;
+  background-color: rgb(230, 137, 235);
+  animation-name: example;
+  animation-duration: 4s;
+  margin-left: 200px;
+  margin-bottom: 250px;
+}
+p.c{
+    font-family: "Poppins",sans-serif ;
+    font-size: 120px;
+    text-align: left;
+    text-decoration: dotted;
+    margin-left: 250px;
+}
+ul.b{
+   font-family: "Poppins",sans-serif;
+   font-size: 50px;
+   text-align: left;
+}
+div.z{
+  width: 500px;
+  height: 500px;
+  float:right ;
+  background-color: rgb(230, 137, 235);
+  animation-name: example;
+  animation-duration: 4s;
+  margin-right: 200px;
+  margin-bottom: 250px;
+}
+div.y{
+  width: 600px;
+  height: 600px;
+  float:left;
+  background-color: rgb(230, 137, 235);
+  margin-left: 200px;
+  margin-bottom: 250px;
+  margin-right: 800px;
+}
+P.U{
+  font-family: "Poppins",sans-serif ;
+    font-size: 100px;
+    text-align: left;
+    text-decoration: dotted;
+    margin-left: 250px;
+}
+ul.O{
+  font-family: "Poppins",sans-serif;
+  font-size: 50px;
+  text-align: left;
+}
+p.m{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+
+
